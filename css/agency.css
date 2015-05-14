@@ -4,6 +4,11 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.logo {
+    float: left;
+    margin-left: 50px;
+}
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -35,14 +40,14 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #000000;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color:  #42368B;
 }
 
 h1,
@@ -170,6 +175,7 @@ fieldset[disabled] .btn-xl.active {
 
 navigation {
     background-color: rgba(6, 6, 6, 0.76);
+
 }
 
 
@@ -213,12 +219,12 @@ navigation {
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
-}
+        }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #42368B;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -237,7 +243,7 @@ navigation {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: rgba(34, 34, 34, 0.44);
+        background-color: rgba(232, 80, 80, 0.45);
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -268,7 +274,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/accueil.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -283,10 +289,8 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
-    font-style: italic;
     line-height: 22px;
 }
 
@@ -306,10 +310,8 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
-        font-style: italic;
         line-height: 40px;
     }
 
@@ -761,7 +763,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #42368B;
 }
 
 .btn:focus,
