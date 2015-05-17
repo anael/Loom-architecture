@@ -74,11 +74,11 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #fed136;
+    border-color:  #E85050;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #E85050;
 }
 
 .btn-primary:hover,
@@ -86,9 +86,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #f6bf01;
+    border-color: #42368B;
     color: #fff;
-    background-color: #fec503;
+    background-color: #42368B;
 }
 
 .btn-primary:active,
