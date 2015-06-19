@@ -174,13 +174,13 @@ fieldset[disabled] .btn-xl.active {
 }
 
 navigation {
-    background-color: rgba(66, 54, 139, 0.90);
+    background-color: ;
 
 }
 
 
 .navbar-default {
-    background-color: rgba(66, 54, 139, 0.90);
+    background-color: ;
 }
 
 .navbar-default .navbar-brand {
@@ -196,12 +196,12 @@ navigation {
 }
 
 .navbar-default .navbar-collapse {
-    border-color: rgba(66, 54, 139, 0.90);
+    border-color: ;
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #FFFFF;
-    background-color: #42368B;
+    border-color: ;
+    background-color: ;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -243,17 +243,11 @@ navigation {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: rgba(66, 54, 139, 0.90);
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
+        background-color: ;
     }
 
     .navbar-default .navbar-brand {
         font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -281,6 +275,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    width: 100%;
 }
 
 header .intro-text {
