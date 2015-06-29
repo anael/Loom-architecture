@@ -14,6 +14,10 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+body.index {
+    background-color: #e75057;
+}
+
 .text-muted {
     color: #777;
 }
@@ -173,8 +177,8 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
-navigation {
-    background-color: ;
+#navigation {
+    background-color: #fff;
 
 }
 
@@ -264,18 +268,12 @@ navigation {
     }
 }
 
-header {
-    text-align: center;
-    color: #fff;
-    background-attachment: scroll;
-    background-image: url(../img/accueil.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+.accueil {
     width: 100%;
+}
+
+header {
+
 }
 
 header .intro-text {
@@ -719,6 +717,11 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
+}
+
+footer p {
+    color: white;
+    font-size: 200%;
 }
 
 footer span.copyright {
