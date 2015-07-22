@@ -5,8 +5,12 @@
  */
 
 .logo {
-    float: left;
-    margin-left: 50px;
+    width: 100%;
+}
+
+li
+{
+list-style-type: none;
 }
 
 body {
@@ -15,7 +19,7 @@ body {
 }
 
 body.index {
-    background-color: #e75057;
+    background-color: #e53434;
 }
 
 .text-muted {
@@ -70,7 +74,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+
 }
 
 .bg-darkest-gray {
@@ -178,8 +182,14 @@ fieldset[disabled] .btn-xl.active {
 }
 
 #navigation {
-    background-color: #fff;
+    background-color: ;
 
+}
+
+.navbar-right {
+    text-align: right;
+    text-transform: uppercase;
+    line-height: 200%;
 }
 
 
@@ -319,7 +329,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: ;
 }
 
 section h2.section-heading {
@@ -339,7 +349,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0px 0px 0px;
+        padding: ;
     }
 }
 
