@@ -4,6 +4,8 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+
 .text-image {
     position:absolute;
     z-index: 1;
@@ -378,6 +380,17 @@ section h3.section-subheading {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+}
+
+.text-hover { display: none;}
+
+.portfolio-link:hover .text-hover { 
+    display: block;
+    color: #ff1933;
+}
+
+.portfolio-link:hover .text-hover .scolaire { 
+    color: #ffbf00;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
