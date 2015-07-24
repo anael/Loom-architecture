@@ -73,7 +73,7 @@ a.active {
 }
 
 a {
-    color: #42368B;
+    color: #242d7d;
 }
 
 a:hover,
@@ -92,9 +92,14 @@ h6 {
     font-weight: 700;
 }
 
-h2,
+h2 {
+    font-family: 'Lato', sans-serif;
+}
+
 h3 {
     font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-style: italic;
 }
 
 .img-centered {
@@ -405,20 +410,18 @@ section h3.section-subheading {
 
 .portfolio-link:hover .text-hover { 
     display: block;
-    color: #ffffff;
+    color:#242d7d;
 }
 
-<<<<<<< HEAD
 /*
-.portfolio-link:hover .scolaire { 
-=======
+.portfolio-link:hover .scolaire 
 /* couleur scolaire */
+
 .portfolio-link:hover .text-scolaire { 
     display: block;
->>>>>>> 3ac97620f3c897dafa045f758416b06fa55d7359
     color: #ffbf00;
 }
-*/
+
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;
@@ -433,8 +436,9 @@ section h3.section-subheading {
 
 /* Transparence projets */
 #portfolio .portfolio-item .portfolio-link .portfolio-projet {
-    background: rgba(22, 28, 158, 0.45);
+    background: rgba(255, 255, 255, 0.45);
 }
+
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1;
