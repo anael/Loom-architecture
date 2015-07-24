@@ -399,15 +399,23 @@ section h3.section-subheading {
     max-width: 400px;
 }
 
+/*Couleurs images projets */
 .text-hover { display: none;}
+
 
 .portfolio-link:hover .text-hover { 
     display: block;
     color: #ffffff;
 }
 
+<<<<<<< HEAD
 /*
 .portfolio-link:hover .scolaire { 
+=======
+/* couleur scolaire */
+.portfolio-link:hover .text-scolaire { 
+    display: block;
+>>>>>>> 3ac97620f3c897dafa045f758416b06fa55d7359
     color: #ffbf00;
 }
 */
