@@ -112,6 +112,7 @@ h3 {
     font-family: 'Lato', sans-serif;
     font-weight: 100;
     font-style: italic;
+    margin-bottom: 20px;
 }
 
 .text-diapo {
@@ -452,7 +453,7 @@ section h3.section-subheading {
 
 /* Transparence projets */
 #portfolio .portfolio-item .portfolio-link .portfolio-projet {
-    background: rgba(255, 255, 255, 0.45);
+    background: rgba(255, 255, 255, 0.65);
 }
 
 
