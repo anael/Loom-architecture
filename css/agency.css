@@ -34,6 +34,10 @@
     width: 100%;
 }
 
+.equipe {
+    margin-bottom: 5%;
+}
+
 li
 {
 list-style-type: none;
@@ -41,7 +45,7 @@ list-style-type: none;
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Lato', sans-serif, "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 body.index {
@@ -61,6 +65,7 @@ p {
     line-height: 1.75;
     color: #242d7d;
     margin: 0px;
+    font-family: 'Lato', sans-serif, "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 p.large {
@@ -96,6 +101,37 @@ h1{
     padding-top: 10px;
 }
 
+h1.debray {
+    color:#ffbf00;
+    padding-top: 2px;
+    text-transform: none;
+}
+
+h1.marsollier {
+    color:#4d19e6;
+    padding-top: 2px;
+    text-transform: none;
+    
+}
+
+h1.hamon {
+    color:#ff0099;
+    padding-top: 2px;
+    text-transform: none;
+}
+
+h1.haumont {
+    color:#4dff00;
+    padding-top: 2px;
+    text-transform: none;
+}
+
+h1.rattier {
+    color:#33ffbf;
+    padding-top: 2px;
+    text-transform: none;
+}
+
 h4,
 h5,
 h6 {
@@ -113,6 +149,15 @@ h3 {
     font-weight: 100;
     font-style: italic;
     margin-bottom: 20px;
+}
+
+h4 {
+    font-family: 'Lato', sans-serif;
+}
+
+h4.equipe-h4 {
+    color:#242d7d;
+    text-transform: none;
 }
 
 .text-diapo {
