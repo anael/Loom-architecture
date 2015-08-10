@@ -100,7 +100,13 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color:  #4d19e6;
+    color:black;
+}
+
+.a-contact {
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 1.5em;
 }
 
 h1{
@@ -143,6 +149,11 @@ h1.rattier {
     text-transform: none;
 }
 
+h1.contact {
+    color: #242d7d;
+    text-transform: none;
+}
+
 h4,
 h5,
 h6 {
@@ -160,6 +171,10 @@ h3 {
     font-weight: 100;
     font-style: italic;
     margin-bottom: 20px;
+}
+
+h3.contact {
+    color: #242d7d;
 }
 
 h4 {
@@ -399,8 +414,6 @@ fieldset[disabled] .btn-xl.active {
 }
 
 #carte {
-    background-size: cover;
-    margin: auto;
     width: 100%;
 }
 
