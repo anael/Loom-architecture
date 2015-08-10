@@ -19,6 +19,10 @@
     text-transform: uppercase;
 }
 
+.map {
+    margin-bottom: 10px;
+}
+
 .text-image-projet {
     position:absolute;
     z-index: 2;
@@ -29,6 +33,13 @@
     padding: 30px;
 }
 
+.text-accueil-image a {
+    color: white;
+}
+
+.text-accueil-image a:hover {
+    color: white;
+}
 
 .logo {
     width: 100%;
@@ -374,6 +385,22 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .accueil {
+    width: 100%;
+}
+
+#image-accueil {
+    max-width: 60em;
+    margin: auto;
+    text-align: center;
+}
+
+#image-accueil img {
+    width: 100%;
+}
+
+#carte {
+    background-size: cover;
+    margin: auto;
     width: 100%;
 }
 
@@ -778,13 +805,6 @@ section h3.section-subheading {
 
 aside.clients img {
     margin: 50px auto;
-}
-
-section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
