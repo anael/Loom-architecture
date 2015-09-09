@@ -35,7 +35,7 @@
 
 .text-accueil-image a {
     color: white;
-    text-transform: uppercase;
+    font-style: italic;
 }
 
 .text-accueil-image a:hover {
